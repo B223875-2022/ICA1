@@ -1,179 +1,75 @@
-cd $HOME
-pwd
-mkdir ICA1
-cd $HOME/ICA1
-mkdir fastq
-cp /localdisk/data/BPSM/ICA1/fastq
+mkdir $HOME/ICA1
+mkdir $HOME/ICA1/fastq
+mkdir $HOME/ICA1/submission
+# This step is to make directories for the assignment
+
 cp /localdisk/data/BPSM/ICA1/fastq $HOME/ICA1
-"/localdisk/home/s1993249/""/localdisk/home/s1898347/"
-"/localdisk/home/s1898347/"
-fastcq --help
-fastqc --help
-s2278077@bioinfmsc8:~$
 cp /localdisk/data/BPSM/ICA1/fastq $HOME
 cp -R /localdisk/data/BPSM/ICA1/fastq $HOME
-cd $HOME/ICA1
 cp -R /localdisk/data/BPSM/ICA1/fastq $HOME/ICA1
 cp -R /localdisk/data/BPSM/ICA1/Tcongo_genome/ $HOME/ICA1
-fastqc Toc-5053_1.fq.gz
-cd $HOME/ICA1/fastqc
+# This step is to copy the files into my own directories
+
 cd $HOME/ICA1/fastq
-fastqc Toc-5053_1.fq.gz
-fastqc Tco-5053_1.fq.gz
-touch analyzeresult.txt
-cat analyzeresult.txt
-echo "Test" > analyzeresult.txt
-cat analyzeresult.txt
-tou analyzeresult.txt
-touch analyzeresult.txt
-fastqc Tco-5053_1.fq.gz > analyzeresult.txt
-cat analyzeresult.txt
-git log
-git init
-git log
-git status
-fastqc Tco-5053_2.fq.gz
-bowtie2 --help
-bowtie2 Tco-5053_2_fastqz.html -U Tco-5053_1_fastqz.html
-pwd
-ls
-cd $HOME/ICA1/fastq
-pwd
-ls
-cd $HOME/ICA1
-cd $HOME/ICA1/fastq
-bowtie2 -x Tco-5053_1_fastqc.html -U Tco-5053_2_fastqc.html
-bowtie2 -x Tco-5053_1_fq.gz -U Tco-5053_2_fq.gz
-fastqc *.fq.gz
-bowtie2-build Tco-5053_1.fq.gz bowtie
-bowtie2-build "/localdisk/home/s2278077/ICA1/fastq/Tco-5053_1_fastqc.html" bowtie
-fasta Tco-5053_1.fq.gz
-hisat2 -h
-ls
-git log
-cd $HOME/ICA1
-git log
-cp /localdisk/home/s2278077/ICA1/Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz $HOME/ICA1/fastq
-bowtie2 -x /localdisk/home/s2278077/ICA1/fastq/Tco-5053_1.fq.gz -U /localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz
-bowtie2 Tco-5053_1.fa.gz
-cd $HOME/ICA1/fastq
-bowtie2 Tco-5053_1.fa.gz
-bowtie2 -h
-bowtie2 -1 $HOME/ICA1/fastq/Tco-5053_1.fq.gz -2
-bowtie2 -1 $HOME/ICA1/fastq/Tco-5053_1.fq.gz -2
-bowtie2 -1 $HOME/ICA1/fastq/Tco-5053_1.fq.gz -2 "/localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz"
-la
-ls
-cat *.fq>databse.fa
-touch database.fa
-cat *.fq.gz>database.fa
-cat database.fa
-cd $HOME/ICA1/fastq
-bowtie2-build Tco-5053_1.fq.gz
-cd $HOME/ICA1/fastq
-bowtie2-build Tco-5053_1.fq.gz
-bowtie2-build Tco-5053_1.fq
-bowtie2 -p 6 -3 5 --local -x Tco-5053_1.fq
-bowtie2 -p 6 -3 5 --local -x Tco-5053_1.fq
-bowtie2 -p 10 -x "/localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz" -1 "/localdisk/home/s2278077/ICA1/fastq/Tco-5053_1.fq.gz" -2"/localdisk/home/s2278077/ICA1/fastq/Tco-5053_2.fq.gz" input_2.fq | samtools sort -O bam -@ 10 -o - > output.bam
-bowtie2 -p 10 -x /localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz -1 /localdisk/home/s2278077/ICA1/fastq/Tco-5053_1.fq.gz -2/localdisk/home/s2278077/ICA1/fastq/Tco-5053_2.fq input_2.fq | samtools sort -O bam -@ 10 -o - > output.bam
-cat "/localdisk/home/s2278077/ICA1/fastq/Tco-5053_1.fq.gz"
-cd $HOME/ICA1/fastq
-bowtie2 -p 10 -x TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz -1 Tco-5053_1.fq -2 Tco-5053_2.fq | samtools sort -O bam -@ 10 -o - > output.bam
-bowtie2 -p 10 -x TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta -1 Tco-5053_1.fq -2 Tco-5053_2.fq | samtools sort -O bam -@ 10 -o - > output.bam
-"/localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz""/localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz""/localdisk/home/s2278077/ICA1/fastq/TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz"
-bowtie2-build
-bowtie2-build
-bowtie2-build Tco-5053_1.fq
-bowtie2-build [options]* <reference_in> <bt2_index_base>
-bowtie2-build [options]* <reference_in> <bt2_index_base>
-bowtie2-build [options]* <reference_in> <bt2_index_base>
-bowtie2-build -x Tco-5053_1.fq Tco-5053_2.fq
-bowtie2 -x $HOME/ICA1/fastq -1 Tco5053_1,fq -2 Tco5053_2.fq
-bowtie2_index="/$HOME/ICA1/fastq"
-bowtie2 -x $HOME/ICA1/fastq -1 Tco5053_1,fq -2 Tco5053_2.fq
-bowtie2-build Tco-5053_1.fq ./fastq/fastq --threads 6
-bowtie2-build Tco-5053_1.fq.gz ./fastq/fastq --threads 6
-ls *fq.gz
-bowtie2-build Tco-5053_1.fq bowtie
-bowtie2-build Tco-5053_1.fq.gz bowtie
-cd $HOME/ICA1/fastq
-cd /home
-cd -
-cd -
-cd ..
-which multiqc
-cd /localdisk/data/BPSM/ICA1/Tcongo_genome/
-ls
-cd -
-ls
-ls $HOME
-cd $HOME
-ls
-cd $HOME/ICA1
-ls
-cd /Tcongo_genome
-cd Tcongo_genome
-ls
-gunzip TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz
-ls
-less TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta
-samtools
-samtools faidx TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta
-ls
-less TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.fai
-hisat2
-hisat2-build
-ls
-hisat2-build TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta TriTrypDB-46_TcongolenseIL3000_2019_Genome
-ls
-less TriTrypDB-46_TcongolenseIL3000_2019_Genome.1.ht2
-bowtie2-build TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta TriTrypDB-46_TcongolenseIL3000_2019_Genome
-ls
-cd /localdisk/data/BPSM/ICA1/
-ls
-cp TrypDB-46_TcongolenseIL3000_2019.bed
-cp TrypDB-46_TcongolenseIL3000_2019.bed
-cp /localdisk/data/BPSM/ICA1/TriTrypDB-46_TcongolenseIL3000_2019.bed $HOME/ICA1
-cd $HOME/ICA1
-ls
-less TriTrypDB-46_TcongolenseIL3000_2019.bed
-cd fastq/
-ls
+fastqc *.fq.gzv
+# This step is to use fastqc to analyse the raw data
+
 mkdir fastqc
 mv *.html
 mv *.html fastqc
 mv *.zip fastqc
-ls
+
+cd fastqc
+unzip Tco-5053_1_fastqc.zip
+cd Tco-5053_1_fastqc
+sed -n '8p' fastqc_data.txt | awk '{if($6==0) print "The sequence has good quality";else print "The sequence has bad quality"}' > record.txt && cat record.txt
+# Unzip the fastqc result and access the data to show whether the sequence has good quality.
+
+cd $HOME/ICA1/fastq
 less Tco-5053_1.fq.gz
 zcat Tco-5053_1.fq.gz
 zcat Tco-5053_1.fq.gz | less
-hisat2
-hisat2 -x
-hisat2 -x ../Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome -1 Tco-5053_1.fq.gz -2 Tco-5053_2.fq.gz -S Tco-5053.sam
-hisat2 -x ../Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome -1 Tco-5053_1.fq.gz -2 Tco-5053_2.fq.gz -S Tco-5053.sam
+# Access the data from fastqc results
+cd /localdisk/data/BPSM/ICA1/Tcongo_genome/
+
+cd Tcongo_genome
+gunzip TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta.gz
+less TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta
+
+samtools faidx TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta
+
+hisat2-build TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta TriTrypDB-46_TcongolenseIL3000_2019_Genome
+less TriTrypDB-46_TcongolenseIL3000_2019_Genome.1.ht2
+bowtie2-build TriTrypDB-46_TcongolenseIL3000_2019_Genome.fasta TriTrypDB-46_TcongolenseIL3000_2019_Genome
+cd /localdisk/data/BPSM/ICA1/
+cp TrypDB-46_TcongolenseIL3000_2019.bed
+cp TrypDB-46_TcongolenseIL3000_2019.bed
+cp /localdisk/data/BPSM/ICA1/TriTrypDB-46_TcongolenseIL3000_2019.bed $HOME/ICA1
+cd $HOME/ICA1
+less TriTrypDB-46_TcongolenseIL3000_2019.bed
+cd fastq/
+# Set up the environment for Hisat2 or Bowtie2cd 
+
+isat2 -x ../Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome -1 Tco-5053_1.fq.gz -2 Tco-5053_2.fq.gz -S Tco-5053.sam
 ls | grep gz$ | sed 's/_.*$//' | sort -u
-ls | grep gz$ | sed 's/_.*$//' | sort -u | grep Tco | while read id;do hisat2 -x ../Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome -1 ${id}_1.fq.gz -2 ${id}_2.fq.gz -S ./sam/${id}.sam ;done
 ls | grep gz$ | sed 's/_.*$//' | sort -u | grep Tco | while read id;do hisat2 -x ../Tcongo_genome/TriTrypDB-46_TcongolenseIL3000_2019_Genome -1 ${id}_1.fq.gz -2 ${id}_2.fq.gz -S ${id}.sam ;done
-ls
+# This step is to write a loop to hisat2 all the fq.gz files
+
 mkdir sam
 mv *.sam sam
 mkdir bam
-samtools
-samtools sort
+
 ls sam | grep sam$ | sed 's/\\.*$//' | sort -u | grep Tco | while read id;do samtools sort -o bam/${id}.bam -O BAM sam/${id}.sam; samtools index bam/${id}.bam; done
 ls sam | grep sam$ | sed 's/\\.s.*$//' | sort -u | grep Tco | while read id;do samtools sort -o bam/${id}.bam -O BAM sam/${id}.sam; samtools index bam/${id}.bam; done
 ls sam | grep sam$ | sed 's/\.s.*$//' | sort -u | grep Tco | while read id;do samtools sort -o bam/${id}.bam -O BAM sam/${id}.sam; samtools index bam/${id}.bam; done
 cd bam
-ls
+
 samtools view Tco-5053.bam | less
 bedtools multicov
 bedtools multicov -bams *.bam -bed
 bedtools multicov -bams *.bam -bed ../../TriTrypDB-46_TcongolenseIL3000_2019.bed > count.txt
-less count.txt
-less count.txt
-less count.txt
-less count.txt
+#Aligning the regions using bedtools
+
 awk '{print $6"\t"$7}' count.txt | less
 awk -F "\t" '{print $6"\t"$7}' count.txt | less
 less count.txt
@@ -232,12 +128,9 @@ awk '{print ($26+$27+$34)/3}' count.txt > WT-48-U.txt
 awk '{print "N/A"}' count.txt > WT-0-I.txt
 awk '{print ($11+$14+$19+$41)/4}' count.txt > WT-24-I.txt
 awk '{print ($15+$23+$25)/3}' count.txt > WT-48-I.txt
-ls
-git log
-paste clone1-0-I.txt clone1-0-U.txt | awk '{print $1/$2}'
-paste clone1-0-U.txt clone1-24-U.txt | awk '{print $1/$2}'
-paste clone1-24-I.txt clone1-24-U.txt | awk '{print $1/$2}'
-paste clone1-24-I.txt clone1-24-U.txt | awk '{print $1/$2}'
-paste clone1-24-I.txt clone1-24-U.txt | awk '{print $1/$2}'
+# Find the average counts for each type of gene
+
+
 paste clone1-24-I.txt clone1-24-U.txt | awk '{if($2!=0) print $1/$2}'
 paste clone1*.txt clone1*.txt | awk '{if($2!=0) print $1/$2}'
+# Compare average counts for one gene to another to find the "fold change"
